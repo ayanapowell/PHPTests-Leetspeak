@@ -20,18 +20,21 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## Specifications
 
-* Returns "ping-pong" for numbers divisible by 15
-    * Input: 45
-    * Output: ping-pong
-* Returns "pong" for numbers divislbe by 5
-    * Input: 50
-    * Output: pong
-* Returns "ping" for numbers divisible by 3
-    * Input: 12
-    * Output: ping
-* Returns original number if not divisible by 3 or 5 or 15
-    * Input: 8
-    * Output: 8
+* Replace 'e' with 3
+    * Input: 'Hello'
+    * Output: H3llo
+* Replace 'o' with 0
+    * Input: "Hola"
+    * Output: H0la
+* Replace leading capital 'I' with 1
+    * Input: "India"
+    * Output: 1ndia
+* Replace non leading 's' with Z
+    * Input: "This"
+    * Output: Thiz
+* Convert all words in a sentence
+    * Input: "Hello hola this is India"
+    * Output: "H3ll0 h0la thiz iz 1ndia"
 
 ## Known Bugs
 
